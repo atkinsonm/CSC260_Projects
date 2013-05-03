@@ -1,0 +1,174 @@
+Script started on Mon 29 Apr 2013 10:22:31 PM EDT
+]0;melusom2@springfield:A6[melusom2@springfield A6]$ ./test
+Please enter whether you would like to read in matrices from the keyboard (0) or from a file (1): 1
+
+Please enter the name of the first file you would like to read a matrix in from: matrix1.txt
+
+Please enter the name of the second file: matrix3.txt
+
+You entered for matrix 1: 
+ 1+0i 2+0i 3+0i 4+0i
+ 2+0i 3+0i 4+0i 5+0i
+ 3+0i 4+0i 5+0i 6+0i
+
+
+And for matrix 2: 
+ 1+0i 2+0i 3+0i 4+0i 5+0i 6+0i 7+0i 8+0i 9+0i 0+0i 1+0i 2+0i 3+0i 4+0i 5+0i
+ 2+0i 3+0i 4+0i 5+0i 6+0i 7+0i 8+0i 9+0i 0+0i 1+0i 2+0i 3+0i 4+0i 5+0i 6+0i
+ 3+0i 4+0i 5+0i 6+0i 7+0i 8+0i 9+0i 0+0i 1+0i 2+0i 3+0i 4+0i 5+0i 6+0i 7+0i
+ 4+0i 5+0i 6+0i 7+0i 8+0i 9+0i 0+0i 1+0i 2+0i 3+0i 4+0i 5+0i 6+0i 7+0i 8+0i
+ 5+0i 6+0i 7+0i 8+0i 9+0i 0+0i 1+0i 2+0i 3+0i 4+0i 5+0i 6+0i 7+0i 8+0i 9+0i
+ 6+0i 7+0i 8+0i 9+0i 0+0i 1+0i 2+0i 3+0i 4+0i 5+0i 6+0i 7+0i 8+0i 9+0i 0+0i
+ 7+0i 8+0i 9+0i 0+0i 1+0i 2+0i 3+0i 4+0i 5+0i 6+0i 7+0i 8+0i 9+0i 0+0i 1+0i
+ 8+0i 9+0i 0+0i 1+0i 2+0i 3+0i 4+0i 5+0i 6+0i 7+0i 8+0i 9+0i 0+0i 1+0i 2+0i
+ 9+0i 0+0i 1+0i 2+0i 3+0i 4+0i 5+0i 6+0i 7+0i 8+0i 9+0i 0+0i 1+0i 2+0i 3+0i
+ 0+0i 1+0i 2+0i 3+0i 4+0i 5+0i 6+0i 7+0i 8+0i 9+0i 0+0i 1+0i 2+0i 3+0i 4+0i
+
+
+Here is an example of addition between the two matrices you input: 
+The matrices could not be added because they are not of the same size. Please try again with two same-sized matrices.
+Segmentation fault (core dumped)
+]0;melusom2@springfield:A6[melusom2@springfield A6]$ ./test
+Please enter whether you would like to read in matrices from the keyboard (0) or from a file (1): matrix2.txt
+
+Please specify the number of rows in the first matrix: 
+Please specify the number of columns in the first matrix: 
+Please type the elements for the matrix, a row at a time. These can all be on one line: 
+Please specify the number of rows in the second matrix: 
+Please specify the number of columns in the second matrix: 
+Please type the elements for the matrix, a row at a time. These can all be on one line: 
+You entered for matrix 1: 
+
+
+And for matrix 2: 
+
+
+Here is an example of addition between the two matrices you input: 
+
+
+
+		 + 
+
+
+		 = 
+
+
+Here is an example of matrix 1 plus the complex number 3+5i: 
+
+
+
+		 + 
+
+		3+5i
+
+		 = 
+
+
+Here is an example of multiplication between the two matrices you input: 
+
+
+
+		 * 
+
+
+		 = 
+
+
+Here is an example of multiplication between matrix 2 and the complex number 3+5i: 
+
+
+
+		 * 
+
+		3+5i
+
+		 = 
+
+]0;melusom2@springfield:A6[melusom2@springfield A6]$ ./test
+Please enter whether you would like to read in matrices from the keyboard (0) or from a file (1): 1
+
+Please enter the name of the first file you would like to read a matrix in from: mati rix2.txt
+
+Please enter the name of the second file: fakematrix.txt
+
+There was an error reading in the file. Please check that the file exists in the current directory and enter the name again: 
+There was an error reading in the file. Please check that the file exists in the current directory and enter the name again: matrix4.txt
+
+You entered for matrix 1: 
+ 1+0i 2+0i 3+0i 4+0i 5+0i
+ 2+0i 3+0i 4+0i 5+0i 6+0i
+ 3+0i 4+0i 5+0i 6+0i 7+0i
+ 4+0i 5+0i 6+0i 7+0i 8+0i
+
+
+And for matrix 2: 
+ 11+0i 2+0i 3+0i 4+0i 5+0i 6+0i 74+0i 8+0i 9+0i 10+0i 1+0i 2+0i 3+0i 4+0i 5+0i
+ 21+0i 3+0i 4+0i 5+0i 6+0i 7+0i 84+0i 9+0i 10+0i 1+0i 2+0i 3+0i 4+0i 5+0i 6+0i
+ 31+0i 4+0i 5+0i 6+0i 7+0i 8+0i 94+0i 0+0i 1+0i 2+0i 3+0i 4+0i 5+0i 6+0i 7+0i
+ 41+0i 5+0i 6+0i 7+0i 8+0i 9+0i 40+0i 1+0i 20+0i 3+0i 4+0i 5+0i 6+0i 7+0i 8+0i
+ 51+0i 6+0i 7+0i 8+0i 9+0i 0+0i 14+0i 2+0i 3+0i 40+0i 5+0i 6+0i 7+0i 8+0i 9+0i
+ 61+0i 7+0i 8+0i 9+0i 0+0i 1+0i 24+0i 3+0i 4+0i 5+0i 60+0i 7+0i 8+0i 9+0i 0+0i
+ 71+0i 8+0i 9+0i 0+0i 1+0i 2+0i 34+0i 4+0i 5+0i 6+0i 70+0i 8+0i 9+0i 0+0i 1+0i
+ 81+0i 9+0i 0+0i 1+0i 2+0i 3+0i 44+0i 5+0i 6+0i 7+0i 80+0i 9+0i 0+0i 1+0i 2+0i
+ 91+0i 0+0i 1+0i 2+0i 3+0i 4+0i 54+0i 6+0i 7+0i 8+0i 90+0i 0+0i 1+0i 2+0i 3+0i
+ 10+0i 1+0i 2+0i 3+0i 4+0i 5+0i 64+0i 7+0i 8+0i 9+0i 0+0i 1+0i 20+0i 3+0i 4+0i
+
+
+Here is an example of addition between the two matrices you input: 
+The matrices could not be added because they are not of the same size. Please try again with two same-sized matrices.
+Here is an example of matrix 1 plus the complex number 3+5i: 
+
+ 1+0i 2+0i 3+0i 4+0i 5+0i
+ 2+0i 3+0i 4+0i 5+0i 6+0i
+ 3+0i 4+0i 5+0i 6+0i 7+0i
+ 4+0i 5+0i 6+0i 7+0i 8+0i
+
+
+		 + 
+
+		3+5i
+
+		 = 
+
+ 4+5i 5+5i 6+5i 7+5i 8+5i
+ 5+5i 6+5i 7+5i 8+5i 9+5i
+ 6+5i 7+5i 8+5i 9+5i 10+5i
+ 7+5i 8+5i 9+5i 10+5i 11+5i
+
+Here is an example of multiplication between the two matrices you input: 
+The matrices could not be multiplied because the number of columns in matrix 1 does not equal the number of rows in matrix 2. Please try again with two appropriate matrices.
+Here is an example of multiplication between matrix 2 and the complex number 3+5i: 
+
+ 11+0i 2+0i 3+0i 4+0i 5+0i 6+0i 74+0i 8+0i 9+0i 10+0i 1+0i 2+0i 3+0i 4+0i 5+0i
+ 21+0i 3+0i 4+0i 5+0i 6+0i 7+0i 84+0i 9+0i 10+0i 1+0i 2+0i 3+0i 4+0i 5+0i 6+0i
+ 31+0i 4+0i 5+0i 6+0i 7+0i 8+0i 94+0i 0+0i 1+0i 2+0i 3+0i 4+0i 5+0i 6+0i 7+0i
+ 41+0i 5+0i 6+0i 7+0i 8+0i 9+0i 40+0i 1+0i 20+0i 3+0i 4+0i 5+0i 6+0i 7+0i 8+0i
+ 51+0i 6+0i 7+0i 8+0i 9+0i 0+0i 14+0i 2+0i 3+0i 40+0i 5+0i 6+0i 7+0i 8+0i 9+0i
+ 61+0i 7+0i 8+0i 9+0i 0+0i 1+0i 24+0i 3+0i 4+0i 5+0i 60+0i 7+0i 8+0i 9+0i 0+0i
+ 71+0i 8+0i 9+0i 0+0i 1+0i 2+0i 34+0i 4+0i 5+0i 6+0i 70+0i 8+0i 9+0i 0+0i 1+0i
+ 81+0i 9+0i 0+0i 1+0i 2+0i 3+0i 44+0i 5+0i 6+0i 7+0i 80+0i 9+0i 0+0i 1+0i 2+0i
+ 91+0i 0+0i 1+0i 2+0i 3+0i 4+0i 54+0i 6+0i 7+0i 8+0i 90+0i 0+0i 1+0i 2+0i 3+0i
+ 10+0i 1+0i 2+0i 3+0i 4+0i 5+0i 64+0i 7+0i 8+0i 9+0i 0+0i 1+0i 20+0i 3+0i 4+0i
+
+
+		 * 
+
+		3+5i
+
+		 = 
+
+ 33+0i 6+0i 9+0i 12+0i 15+0i 18+0i 222+0i 24+0i 27+0i 30+0i 3+0i 6+0i 9+0i 12+0i 15+0i
+ 63+0i 9+0i 12+0i 15+0i 18+0i 21+0i 252+0i 27+0i 30+0i 3+0i 6+0i 9+0i 12+0i 15+0i 18+0i
+ 93+0i 12+0i 15+0i 18+0i 21+0i 24+0i 282+0i 0+0i 3+0i 6+0i 9+0i 12+0i 15+0i 18+0i 21+0i
+ 123+0i 15+0i 18+0i 21+0i 24+0i 27+0i 120+0i 3+0i 60+0i 9+0i 12+0i 15+0i 18+0i 21+0i 24+0i
+ 153+0i 18+0i 21+0i 24+0i 27+0i 0+0i 42+0i 6+0i 9+0i 120+0i 15+0i 18+0i 21+0i 24+0i 27+0i
+ 183+0i 21+0i 24+0i 27+0i 0+0i 3+0i 72+0i 9+0i 12+0i 15+0i 180+0i 21+0i 24+0i 27+0i 0+0i
+ 213+0i 24+0i 27+0i 0+0i 3+0i 6+0i 102+0i 12+0i 15+0i 18+0i 210+0i 24+0i 27+0i 0+0i 3+0i
+ 243+0i 27+0i 0+0i 3+0i 6+0i 9+0i 132+0i 15+0i 18+0i 21+0i 240+0i 27+0i 0+0i 3+0i 6+0i
+ 273+0i 0+0i 3+0i 6+0i 9+0i 12+0i 162+0i 18+0i 21+0i 24+0i 270+0i 0+0i 3+0i 6+0i 9+0i
+ 30+0i 3+0i 6+0i 9+0i 12+0i 15+0i 192+0i 21+0i 24+0i 27+0i 0+0i 3+0i 60+0i 9+0i 12+0i
+Segmentation fault (core dumped)
+]0;melusom2@springfield:A6[melusom2@springfield A6]$ exit
+exit
+
+Script done on Mon 29 Apr 2013 10:23:25 PM EDT
